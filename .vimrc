@@ -1,5 +1,6 @@
 " Personal settings
-set relativenumber
+set number
+colorscheme retrobox
 syntax on
 set encoding=utf-8
 set fileencoding=utf-8
@@ -19,6 +20,7 @@ let mapleader=" "
 call plug#begin()
 
 " List your plugins here
+Plug 'flazz/vim-colorschemes'
 Plug 'sheerun/vim-polyglot'
 Plug 'valloric/youcompleteme'
 Plug 'morhetz/gruvbox'
